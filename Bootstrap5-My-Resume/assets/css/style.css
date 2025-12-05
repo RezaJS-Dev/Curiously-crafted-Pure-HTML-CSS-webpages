@@ -97,16 +97,20 @@ ul.list-style-disk {
         
             & li {
         
-                & p {
-                    color: #000;
-                    margin-top: 10px;
-                    margin-bottom: 0;
-                }
-        
-                & span {
-                    display: flex;
-                    text-align: left;
-                    justify-content: end;
+                & a {
+                    display: block;
+
+                    & p {
+                        color: #000;
+                        margin-top: 10px;
+                        margin-bottom: 0;
+                    }
+            
+                    & span {
+                        display: flex;
+                        text-align: left;
+                        justify-content: end;
+                    }
                 }
             }
     }
